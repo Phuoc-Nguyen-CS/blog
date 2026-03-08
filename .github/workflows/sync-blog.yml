@@ -1,0 +1,15 @@
+name: Sync Blog to Portfolio
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository Dispatch
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.PORTFOLIO_SYNC_TOKEN }}
+          repository: Phuoc-Nguyen-CS/updated_portfolio
+          event-type: blog_update

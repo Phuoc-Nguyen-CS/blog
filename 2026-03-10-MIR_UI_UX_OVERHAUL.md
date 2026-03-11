@@ -1,7 +1,7 @@
 # Terminal Portfolio Update [MIR_OS]
 - TYPE: Adding clicking accessibility to assist those who don't know how to use a terminal
 - TARGET: Terminal Portfolio
-- STATUS: IN PROGRESS
+- STATUS: DEPLOYED
 
 # THE OBJECTIVE
 * After a trial an initial beta with some users. It was found that a terminal is difficult for those not in the tech field to use. The goal now is to make the website accessible to those that are not very well verse with tech commands.
